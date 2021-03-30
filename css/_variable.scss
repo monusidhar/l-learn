@@ -1,6 +1,11 @@
 $primary-bg-color:-webkit-linear-gradient(0deg, #c41330 0%, #f63c25 100%);
-$primary-color:#f63c25;
+$primary-color:#0046c0;
 $accent-color:#fff;
 $font-family: 'barlowregular';
 $white:#fff;
 $black:#000;
+
+
+@-webkit-keyframes a-five{0%{-webkit-transform:translate(0,0);transform:translate(0,0)}50%{-webkit-transform:translate(10px,10px);transform:translate(10px,10px)}100%{-webkit-transform:translate(0,0);transform:translate(0,0)}}@keyframes a-five{0%{-webkit-transform:translate(0,0);transform:translate(0,0)}50%{-webkit-transform:translate(10px,10px);transform:translate(10px,10px)}100%{-webkit-transform:translate(0,0);}}
+@-webkit-keyframes a-four{0%{-webkit-transform:translate(0,0);transform:translate(0,0)}50%{-webkit-transform:translate(-10px,-10px);transform:translate(-10px,-10px)}100%{-webkit-transform:translate(0,0);transform:translate(0,0)}}@keyframes a-four{0%{-webkit-transform:translate(0,0);transform:translate(0,0)}50%{-webkit-transform:translate(-10px,-10px);transform:translate(-10px,-10px)}100%{-webkit-transform:translate(0,0);transform:translate(0,0)}}
+@keyframes a-eight{0%{-webkit-transform:translate(0,0);transform:translate(0,0)}50%{-webkit-transform:translate(75px,0);transform:translate(75px,0)}100%{-webkit-transform:translate(0,0);transform:translate(0,0)}}
