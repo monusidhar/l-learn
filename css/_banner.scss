@@ -1,0 +1,101 @@
+.banner-right{
+    img{
+    position: absolute;
+    }
+     img:nth-child(1) {
+        top: -125px;
+        right: 10px;
+        max-width: 510px;
+        z-index: 1;
+        margin-left: auto;
+        margin-right: auto;
+    }    
+    img:nth-child(2){
+        top: -125px;
+        right: 20px;
+        max-width: 510px;
+        -webkit-animation: a-four 5s infinite linear;
+        animation: a-four 5s infinite linear;
+        margin-left: auto;
+        margin-right: auto;
+    }
+     img:nth-child(3) {
+        top: -125px;
+        right: 0;
+        max-width: 510px;
+        -webkit-animation: a-five 5s infinite linear;
+        animation: a-five 5s infinite linear;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    img:nth-child(4) {
+        bottom: 215px;
+        left: 50px;
+        max-width: 360px;
+        z-index: -1;
+        -webkit-animation: a-eight 20s infinite linear;
+        animation: a-eight 20s infinite linear;
+    }
+    }
+    
+    .banner_sec{
+        height: 100vh;
+        position: relative;
+        // background-image: url('../images/dark-banner.jpg');
+        // background-size: cover;
+        h1{
+            span{
+                color: $primary-color;
+            }
+            font-weight: 700;
+            font-size: 48px;
+            max-width: 575px;
+            margin-left: 0;
+        }
+        p{
+            color: #616263;
+            margin-bottom: 35px;
+            max-width: 575px;
+            margin-left: 0;
+        }
+        .pattern_aside {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-30%);
+            img{
+                max-width: 150px;
+            }
+        }
+    }
+    
+    .theme-btn{
+        padding: 15px 30px;
+        border: 0;
+        border-radius: 0;
+        font-family: barlow,sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 1.5rem;
+        text-transform: uppercase;
+        color: #fff;
+        background-color: $primary-color;
+        -webkit-transition: all .4s ease;
+        -o-transition: all .4s ease;
+        transition: all .4s ease;
+    }
+    // second-sec
+    .wrapper_box{
+        position: relative;
+        overflow: hidden;
+       padding: 40px 30px;
+       .content_wrapper {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        padding: 0 50px;
+        color: #fff;
+        transform: translateY(-30%);
+    }
+    }
